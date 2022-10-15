@@ -2,6 +2,7 @@ export type { BooleanFilter } from './BooleanFilter';
 export type { DateTimeFilter } from './DateTimeFilter';
 export type { DateTimeWithAggregatesFilter } from './DateTimeWithAggregatesFilter';
 export type { Enumerable } from './Enumerable';
+export type { FloatFilter } from './FloatFilter';
 export type { IntFilter } from './IntFilter';
 export type { IntWithAggregatesFilter } from './IntWithAggregatesFilter';
 export type { NestedDateTimeFilter } from './NestedDateTimeFilter';
