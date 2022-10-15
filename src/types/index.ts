@@ -1,3 +1,4 @@
+export type { BooleanFilter } from './BooleanFilter';
 export type { DateTimeFilter } from './DateTimeFilter';
 export type { DateTimeWithAggregatesFilter } from './DateTimeWithAggregatesFilter';
 export type { Enumerable } from './Enumerable';
