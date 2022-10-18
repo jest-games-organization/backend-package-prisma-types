@@ -21,3 +21,4 @@ export type { StringFilter } from './StringFilter';
 export type { StringNullableFilter } from './StringNullableFilter';
 export type { StringNullableWithAggregatesFilter } from './StringNullableWithAggregatesFilter';
 export type { StringWithAggregatesFilter } from './StringWithAggregatesFilter';
+export type { WhereInput } from './WhereInput';
