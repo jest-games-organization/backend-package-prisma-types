@@ -1,5 +1,5 @@
 import { Enumerable } from './Enumerable';
-import { NestedDateTimeFilter } from './NestedDateTimeFilter';
+import { NestedDateTimeNullableFilter } from './NestedDateTimeNullableFilter';
 
 export type DateTimeNullableFilter = {
   equals?: Date | string | null;
@@ -9,5 +9,5 @@ export type DateTimeNullableFilter = {
   lte?: Date | string;
   gt?: Date | string;
   gte?: Date | string;
-  not?: NestedDateTimeFilter | Date | string | null;
+  not?: NestedDateTimeNullableFilter | Date | string | null;
 };
