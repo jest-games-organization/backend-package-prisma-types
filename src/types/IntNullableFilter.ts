@@ -1,5 +1,5 @@
 import { Enumerable } from './Enumerable';
-import { NestedIntFilter } from './NestedIntFilter';
+import { NestedIntNullableFilter } from './NestedIntNullableFilter';
 
 export type IntNullableFilter = {
   equals?: number | null;
@@ -9,5 +9,5 @@ export type IntNullableFilter = {
   lte?: number;
   gt?: number;
   gte?: number;
-  not?: NestedIntFilter | number | null;
+  not?: NestedIntNullableFilter | number | null;
 };

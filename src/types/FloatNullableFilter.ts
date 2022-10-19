@@ -1,5 +1,5 @@
 import { Enumerable } from './Enumerable';
-import { NestedFloatFilter } from './NestedFloatFilter';
+import { NestedFloatNullableFilter } from './NestedFloatNullableFilter';
 
 export type FloatNullableFilter = {
   equals?: number | null;
@@ -9,5 +9,5 @@ export type FloatNullableFilter = {
   lte?: number;
   gt?: number;
   gte?: number;
-  not?: NestedFloatFilter | number | null;
+  not?: NestedFloatNullableFilter | number | null;
 };
