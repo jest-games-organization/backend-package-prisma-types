@@ -2,7 +2,7 @@ Arguments:
   /home/conrardy/.nvm/versions/node/v16.17.0/bin/node /usr/share/yarn/bin/yarn.js publish --access public
 
 PATH: 
-  /tmp/yarn--1665882855125-0.8053988260768208:/home/conrardy/jest-games-organization/backend-package-prisma-types/node_modules/.bin:/home/conrardy/.config/yarn/link/node_modules/.bin:/home/conrardy/.yarn/bin:/home/conrardy/.nvm/versions/node/v16.17.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/conrardy/.nvm/versions/node/v16.17.0/lib/node_modules/npm/bin/node-gyp-bin:/home/conrardy/.nvm/versions/node/v16.17.0/bin/node_modules/npm/bin/node-gyp-bin:/home/conrardy/.cache/cloud-code/installer/google-cloud-sdk/bin:/home/conrardy/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/home/conrardy/.local/bin:/home/conrardy/.rover/bin:/home/conrardy/.nvm/versions/node/v16.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.15.2713.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/conra/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/conra/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/conra/.dotnet/tools:/snap/bin
+  /tmp/yarn--1666143178461-0.6060159432021277:/home/conrardy/jest-games-organization/backend-package-prisma-types/node_modules/.bin:/home/conrardy/.config/yarn/link/node_modules/.bin:/home/conrardy/.yarn/bin:/home/conrardy/.nvm/versions/node/v16.17.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/conrardy/.nvm/versions/node/v16.17.0/lib/node_modules/npm/bin/node-gyp-bin:/home/conrardy/.nvm/versions/node/v16.17.0/bin/node_modules/npm/bin/node-gyp-bin:/home/conrardy/.cache/cloud-code/installer/google-cloud-sdk/bin:/home/conrardy/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/home/conrardy/.local/bin:/home/conrardy/.rover/bin:/home/conrardy/.nvm/versions/node/v16.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/conra/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/conra/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/conra/.dotnet/tools:/snap/bin
 
 Yarn version: 
   1.22.5
@@ -14,8 +14,8 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/-/user/org.couchdb.user:jest-games: Auth rate limited
-      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66997:18)
+  Error: https://registry.yarnpkg.com/-/user/org.couchdb.user:jest-games: failed to authenticate: Could not authenticate jest-games: bad password
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66988:18)
       at Request.self.callback (/usr/share/yarn/lib/cli.js:140749:22)
       at Request.emit (node:events:513:28)
       at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141721:10)
@@ -30,7 +30,7 @@ npm manifest:
   {
     "name": "@jest-games-organization/backend-package-prisma-types",
     "description": "This Jest Games Organization backend package provides Prisma types for shared functionality.",
-    "version": "1.0.7",
+    "version": "1.0.10",
     "author": "Jest Games Organization",
     "license": "ISC",
     "main": "dist/index.cjs.js",

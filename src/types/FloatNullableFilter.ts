@@ -3,8 +3,8 @@ import { NestedFloatFilter } from './NestedFloatFilter';
 
 export type FloatNullableFilter = {
   equals?: number | null;
-  in?: Enumerable<number>;
-  notIn?: Enumerable<number>;
+  in?: Enumerable<number> | null;
+  notIn?: Enumerable<number> | null;
   lt?: number;
   lte?: number;
   gt?: number;
