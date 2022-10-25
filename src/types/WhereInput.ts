@@ -1,6 +1,6 @@
 import { Enumerable } from './Enumerable';
 
-export type WhereInput<Record extends { [key: string]: unknown }> = {
+export type WhereInput<Record extends { [key: string]: any }> = {
   [key in keyof Record]?: any;
 } & {
   AND?: Enumerable<WhereInput<Record>>;
