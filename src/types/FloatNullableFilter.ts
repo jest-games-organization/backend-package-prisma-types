@@ -1,4 +1,4 @@
-import { Enumerable } from './Enumerable';
+import { Enumerable } from '@jest-games-organization/backend-package-object-types';
 import { NestedFloatNullableFilter } from './NestedFloatNullableFilter';
 
 export type FloatNullableFilter = {

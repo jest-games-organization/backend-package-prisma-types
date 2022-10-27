@@ -3,7 +3,6 @@ export type { BooleanNullableFilter } from './BooleanNullableFilter';
 export type { DateTimeFilter } from './DateTimeFilter';
 export type { DateTimeNullableFilter } from './DateTimeNullableFilter';
 export type { DateTimeWithAggregatesFilter } from './DateTimeWithAggregatesFilter';
-export type { Enumerable } from './Enumerable';
 export type { FloatFilter } from './FloatFilter';
 export type { FloatNullableFilter } from './FloatNullableFilter';
 export type { IntFilter } from './IntFilter';
