@@ -1,6 +1,6 @@
-import { Enumerable } from '@jest-games-organization/backend-package-object-types';
+import { DataObject, Enumerable } from '@jest-games-organization/backend-package-object-types';
 
-export type WhereInput<Record extends { [key: string]: any }> = {
+export type WhereInput<Record extends DataObject> = {
   [key in keyof Record]?: any;
 } & {
   AND?: Enumerable<WhereInput<Record>>;
