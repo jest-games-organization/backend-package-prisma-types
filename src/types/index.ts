@@ -20,6 +20,7 @@ export type { NestedStringFilter } from './NestedStringFilter';
 export type { NestedStringNullableFilter } from './NestedStringNullableFilter';
 export type { NestedStringNullableWithAggregatesFilter } from './NestedStringNullableWithAggregatesFilter';
 export type { NestedStringWithAggregatesFilter } from './NestedStringWithAggregatesFilter';
+export type { OrderByInput } from './OrderByInput';
 export type { QueryMode } from './QueryMode';
 export type { SortOrder } from './SortOrder';
 export type { StringFilter } from './StringFilter';
